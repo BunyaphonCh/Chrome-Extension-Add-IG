@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Auto Adder",
+    "description": "Add Instagram users automatically by typing their names",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "background": 
+    {
+    "service_worker": "background.js"
+    },
+    "action": 
+    {
+    "default_popup": "popup.html"
+    },
+    "host_permissions": ["https://www.instagram.com/*"]
+}
